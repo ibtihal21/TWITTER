@@ -7,6 +7,7 @@ Created on Thu Oct 05 17:42:01 2020
 
 
 import streamlit as st
+import sys
 import warnings
 warnings.filterwarnings("ignore")
 # EDA Pkgs
@@ -54,10 +55,10 @@ def main():
     st.subheader("Select a topic which you'd like to get the sentiment analysis on :")
 
     ################# Twitter API Connection #######################
-    consumer_key = "Enter Key Here"
-    consumer_secret = "Enter Key Here"
-    access_token = "Enter Key Here"
-    access_token_secret = "Enter Key Here"
+    consumer_key = "gY9Sa0lMKNEQ8oe2IGflF2DEy"
+    consumer_secret = "ESNh3fPZPoB8Ztar47zsTHiMrdrQ6iavOpVB8jl2LuEDKTyUlM"
+    access_token = "1593954108318285831-izGEQO1nAnyoUCoLzOvBKJgIzQDIT7"
+    access_token_secret = "E9boSeTPvkcIWfQZyEGrokA6A9xZJJLiXLIV0Hroexehs"
 
 
 
